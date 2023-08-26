@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: 'Wendy One', sans-serif;
+    color: #0670AB;
+  }
+  img{
+    height: 38%;
+    width: 30%;
+  }
+  @media screen and (max-width: 916px) {
+    h1{
+    font-size: 36px;
+        margin-bottom: 30px;
+    }
+  }
+  @media screen and (max-width: 1506px) {
+    img{
+        height: 600px;
+        width: 400px ;
+    }
+  }

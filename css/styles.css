@@ -323,8 +323,9 @@ iframe{
   padding-top: 30%;
 }
 /* Footer */
-#copyright, .footer-icon {
+#copyright, #copyright-2, .footer-icon {
   color: #8f8f8f;
+  margin-top: 10px;
 }
 #footer{
   padding:10%;
@@ -847,6 +848,9 @@ iframe{
         width:440px;
         height: 200px;
       }
+      .carousel-indicators button{
+        display: none;
+      }
     }
     @media screen and (max-width: 518px) {
       iframe{
@@ -880,6 +884,14 @@ iframe{
       .carousel-text-2{
         font-size: 16px;
         text-shadow: 1px 6px #5a5a5ae3;
+      }
+    }
+    @media screen and (max-width: 956px) {
+      #icons{
+        left: 40px;
+      }
+      #icons-2{
+        right: 0px;
       }
     }
     
